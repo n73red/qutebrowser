@@ -1,0 +1,30 @@
+*|*,:before,:after
+{
+        background-color:transparent !important;
+        color:#999 !important;
+}
+:not(html):not(span):not(a):not(:empty):not(img),#mw-head-base,#mw-page-base
+{
+        background-image:none !important;
+}
+[class*=error],[class*=alert],code,span[onclick],div[onclick]
+{
+        color:#ff0 !important;
+}
+a,a *
+{
+        color:#0ff !important;
+}
+a:hover,a:hover *,a:visited:hover,a:visited:hover *
+{
+        color:#fff !important;
+        text-shadow:0 0 3px #fff !important;
+}
+a:visited,a:visited *
+{
+        color:#f0f !important;
+}
+html,input,li,ul,.bb,.bg-gray-light,.bg-white,.modal,.popup,.post,.qr
+{
+        background:#000 !important;
+}
